@@ -1,0 +1,107 @@
+/* Variables for the colours ====================================================================== */
+:root {
+	--gray: #ae9aa0;
+	--white: #f9f8f8;
+	--lightPink: #f0edee;
+	--black: #241f20;
+}
+
+/* General Styles ================================================================================= */
+
+body {
+	margin: 0;
+	font: 20px Helvetica;
+	background: var(--lightPink);
+}
+
+section {
+	margin: 15px auto;
+	padding: 50px;
+	width: 80%;
+	background-color: var(--white);
+}
+
+h1 {
+	font-size: 45px;
+	padding: 0.5em;
+	margin: 0;
+	margin-left: 20px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+h2 {
+	font-size: 30px;
+	padding: 0.3em;
+	margin: 0;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+p {
+	margin: 15px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: var(--gray);
+}
+
+hr {
+	border: 1px solid var(--black);
+	margin: 10px;
+}
+
+
+.section-top {
+	margin: 125px auto 15px;
+}
+
+/* Navigation Bar ================================================================================= */
+
+nav {
+	height: auto;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	color: var(--lightPink);
+	justify-content: center;
+}
+
+.nav-bar {
+	background: var(--gray);
+}
+
+.menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	letter-spacing: 2px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.menu a {
+	display: block;
+	text-align: center;
+	color: inherit;
+	font-size: inherit;
+	font-weight: 300;
+	line-height: 35px;
+	height: 35px;
+	margin: 5px;
+	padding: 0px 15px;
+	text-decoration: none;
+	transition: 0.1s ease-out;
+}
+
+.menu a:hover {
+	background-color: rgba(247, 246, 241, 0.2);
+	color: var(--black);
+}
